@@ -1,0 +1,131 @@
+.input-group-text:empty {
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0rem;
+}
+
+.layui-input-block {
+  margin: 0;
+}
+
+.layui-input:hover,
+.layui-input:focus,
+.layui-textarea:hover,
+.layui-textarea:focus {
+  border-color: #006dd9 !important;
+}
+
+.builder label[extra='small'] {
+  padding: 8px 10px;
+}
+
+.builder label[extra='middle'] {
+  padding: 8px 5px;
+}
+
+.builder label[extra='large'] {
+  padding: 8px 0px !important;
+}
+[data-toggle$="Box"] .layui-nav .layui-nav-item,
+[data-toggle$="Box"] .layui-nav .layui-nav-item a[data-code],
+[data-toggle$="Box"] .layui-nav .layui-nav-item a[data-toggle]{
+  line-height: 22px;
+}
+[data-toggle$="Box"] .layui-nav .layui-nav-item a{
+  font-size: 14px;
+  height: 24px;
+  border-radius: 4px;
+}
+
+.guideSelectGenerator~.layui-form-select .layui-input{
+  height: 26px;
+}
+[data-toggle="manageBox"] .layui-nav .layui-nav-item a{
+  padding:0 15px 0 3px;
+}
+[data-toggle="manageBox"] .layui-nav .layui-nav-item i{
+  margin-right:2px;
+}
+[data-toggle="codeBox"] .layui-nav .layui-nav-item a{
+  padding-left:7px;
+}
+[data-toggle$="Box"] .layui-nav .layui-nav-item a[data-code],
+[data-toggle$="Box"] .layui-nav .layui-nav-item a[data-toggle],
+.guideSelectGenerator~.layui-form-select .layui-input{
+  padding: 0 7px;
+}
+[data-toggle$="Box"] dl.layui-nav-child {
+  top: 26px;
+  color: #000;
+  line-height: 22px;
+  cursor: pointer;
+}
+[data-toggle$="Box"] dd[data-code]:not([disabled="disabled"]):hover,
+[data-toggle$="Box"] dd[data-code]:not([disabled="disabled"]).active,
+[data-toggle$="Box"] dd[data-toggle]:not([disabled="disabled"]):hover,
+[data-toggle$="Box"] dd[data-toggle]:not([disabled="disabled"]).active,
+[data-toggle$="Box"] dd[data-toggle] .layui-icon.active,
+[data-toggle$="Box"] dd[data-toggle]:not([disabled="disabled"]):hover i:not([checkType]){
+  color: #1890ff !important;
+}
+
+[data-toggle$="Box"] dd[data-toggle] i[checkType]{
+  color: #fff;
+}
+
+[data-toggle$="Box"] dd[data-toggle] i:not([checkType]){
+  color: #000;
+}
+
+[data-toggle$="Box"] .layui-nav .layui-nav-item a:hover,
+[data-toggle$="Box"] .layui-nav .layui-this a {
+  color: #000;
+}
+
+[data-toggle$="Box"] .layui-nav .layui-nav-item a:not([disabled="disabled"]):hover,
+[data-toggle$="Box"] .layui-nav .layui-nav-item a.active,
+[data-toggle$="Box"] .layui-nav .layui-this a:not([disabled="disabled"]):hover {
+  border-color: #1890ff !important;
+  color: #1890ff;
+}
+
+[data-toggle$="Box"] .layui-nav .layui-nav-item a[disabled="disabled"],
+[data-toggle$="Box"] .layui-nav .layui-nav-item a[disabled="disabled"]:hover,
+[data-toggle$="Box"] dd[data-code][disabled="disabled"],
+[data-toggle$="Box"] dd[data-toggle][disabled="disabled"]{
+  cursor:not-allowed;
+}
+
+[data-toggle$="Box"] .layui-nav .layui-this:after,
+[data-toggle$="Box"] .layui-nav-bar,
+[data-toggle$="Box"] .layui-nav-tree .layui-nav-itemed:after {
+  background-color: transparent;
+}
+
+[data-toggle$="Box"] .text-muted {
+  font-size: 6px;
+}
+
+[data-toggle$="Box"] .layui-nav .layui-nav-more {
+  right: 6px;
+  border-width: 3px;
+}
+
+[data-toggle$="Box"] .layui-nav .layui-nav-mored {
+  top: 65%;
+}
+
+.layui-layer-btn.layui-layer-btn-:empty {
+  padding: 0 !important;
+}
+.layui-help-checkbox{
+  top:315px;
+  bottom: 0;
+  left: 40%;
+  right:0;
+}

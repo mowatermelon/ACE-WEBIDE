@@ -1,0 +1,20 @@
+[data-toggle="code"] {
+  overflow:hidden;
+}
+#editor{
+  min-height: 85vh;
+  height:calc(100% - 30px);
+  overflow:auto;
+}
+.layui-min-header{
+  height:3rem;
+  line-height: 3rem;
+  text-indent: 1rem;
+  font-weight: bolder;
+}
+.layui-layout-admin .layui-body{
+  top: 3rem;
+}
+.layui-layout-admin .layui-body,.layui-layout-admin .layui-footer{
+  left:0;
+}
